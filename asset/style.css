@@ -409,11 +409,8 @@ section {
 
 /* hero section */
 
-/* hero.css - Styling untuk Hero Section */
-
-/* Hero Container */
 .hero {
-    padding: 100px 0 120px;
+    padding: 85px 0 80px;
     position: relative;
 }
 

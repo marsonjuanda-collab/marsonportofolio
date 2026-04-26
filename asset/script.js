@@ -1,6 +1,3 @@
-// ========== SCRIPT GABUNGAN ==========
-// Navbar + Menu + Hero Section (Typing & Animated Icons)
-
 document.addEventListener('DOMContentLoaded', function() {
     
     // ========== 1. NAVBAR & MENU TOGGLE (DARI SCRIPT ASLI) ==========
@@ -81,7 +78,6 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
-    // Resize handler untuk menu
     let resizeTimer;
     window.addEventListener("resize", () => {
         clearTimeout(resizeTimer);
@@ -101,7 +97,6 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 
-    // ========== 2. TYPING EFFECT (HERO) ==========
     const text = "Marson D. Juanda Zebua";
     const typingElement = document.getElementById("hero-typing");
     let typingIndex = 0;
@@ -125,7 +120,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
     typeLoop();
 
-    // ========== 3. ANIMATED ICONS (HERO) ==========
     const icons = document.querySelectorAll('.hero-icon-item');
     let currentIconIndex = 0;
 
@@ -156,7 +150,6 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     }
 
-    // ========== 4. SCROLL REVEAL ANIMATION (UNTUK SELURUH SECTION) ==========
     const revealElements = document.querySelectorAll(".about, .showcase, .projects, .contact, .hero-content, .hero-box");
 
     const revealOnScroll = () => {

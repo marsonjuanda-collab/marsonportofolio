@@ -1801,12 +1801,6 @@ section {
   color: var(--text-primary);
 }
 
-.inner-version {
-  font-size: 0.6rem;
-  font-family: monospace;
-  color: rgba(255, 255, 255, 0.3);
-}
-
 /* Slider */
 .slider-wrapper {
   width: 100%;
